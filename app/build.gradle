@@ -26,6 +26,13 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'org.greenrobot:eventbus:3.0.0'
 }
 
 // greendao
@@ -44,7 +51,7 @@ dependencies {
     compile 'org.greenrobot:greendao:3.2.0'
 }
 greendao {
-    schemaVersion 1 // 指定数据库schema版本号，迁移等操作会用到
+    schemaVersion 4 // 指定数据库schema版本号，迁移等操作会用到
     daoPackage 'com.pefish.joy.greendaotest.daos' // dao的包名，包名默认是entity所在的包
     targetGenDir 'src/main/java' // 生成数据库文件的目录
 }

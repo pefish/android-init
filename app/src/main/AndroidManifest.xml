@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.pefish.joy.greendaotest">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name="com.pefish.joy.greendaotest.MyApplication"
         android:allowBackup="true"
@@ -9,13 +11,14 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".views.main.MainActivity">
+        <activity android:name=".pages.main.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".pages.testPage.view.TestViewActivity"></activity>
     </application>
 
 </manifest>

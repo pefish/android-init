@@ -1,4 +1,4 @@
-package com.pefish.joy.greendaotest.views.usercenter;
+package com.pefish.joy.greendaotest.pages.usercenter.view;
 
 /**
  * @author：joy
@@ -8,5 +8,5 @@ package com.pefish.joy.greendaotest.views.usercenter;
  * @date：08/03/2017 5:28 PM
  */
 
-public class UserFragment {
+public class UserCenterFragment {
 }

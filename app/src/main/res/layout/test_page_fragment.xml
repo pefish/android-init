@@ -13,13 +13,13 @@
     tools:context=".pages.main.view.MainActivity">
 
     <TextView
-        android:id="@+id/tv_test_text"
+        android:id="@+id/tv_test_page_test_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="sghsrthr" />
     <Button
         android:layout_width="wrap_content"
-        android:id="@+id/btn_test_button"
-        android:text="haha"
+        android:text="xixi"
+        android:id="@+id/btn_test_page_test_buttom"
         android:layout_height="wrap_content"/>
 </LinearLayout>
